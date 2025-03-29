@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Presents Direwolf20 1.21"
 LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/115/logo.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=FTB-Direwolf20-1.21:25565
+LABEL homepage.widget.url=udp://FTB-Direwolf20-1.21:25565
 
 
 RUN apt-get update && apt-get install -y curl && \
