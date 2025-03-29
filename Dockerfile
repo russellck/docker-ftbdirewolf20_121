@@ -3,6 +3,12 @@
 FROM openjdk:21-jdk-buster
 
 LABEL version="1.4.1"
+LABEL homepage.group=Minecraft
+LABEL homepage.name="FTB Presents Direwolf20 1.21"
+LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/115/logo.png"
+LABEL homepage.widget.type=minecraft
+LABEL homepage.widget.url=FTB-Direwolf20-1.21:25565
+
 
 RUN apt-get update && apt-get install -y curl && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
